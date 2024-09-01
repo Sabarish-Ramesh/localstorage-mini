@@ -1,0 +1,67 @@
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-color: #f0f8ff; /* Light pastel blue */
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+#user-guessed-num,
+#btn {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #ffb6c1; /* Light pastel pink */
+  margin: 10px;
+}
+
+#reset {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #ffb6c1; /* Light pastel pink */
+  margin: 10px;
+}
+
+#btn {
+  background-color: #ffb6c1; /* Light pastel pink */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#btn:hover {
+  background-color: #ff69b4; /* Hot pink */
+}
+
+#score,
+#tof {
+  font-size: 24px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fffacd; /* Light pastel yellow */
+  display: inline-block;
+}
+
+#ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#ul li {
+  background-color: #e0ffff; /* Light pastel cyan */
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #add8e6; /* Light blue */
+}
+
+.alert {
+  background-color: #ffdab9; /* Peach puff */
+  color: #333;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
